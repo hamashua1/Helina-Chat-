@@ -1,0 +1,33 @@
+{
+  "name": "helina-chat-",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/hamashua1/Helina-Chat-#readme",
+  "bugs": {
+    "url": "https://github.com/hamashua1/Helina-Chat-/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hamashua1/Helina-Chat-.git"
+  },
+  "license": "ISC",
+  "author": "nun",
+  "type": "module",
+  "main": "app.ts",
+  "scripts": {
+    "start": "node app.ts"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.18.3",
+    "node": "^24.8.0",
+    "typescript": "^5.9.2"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.3"
+  }
+}
